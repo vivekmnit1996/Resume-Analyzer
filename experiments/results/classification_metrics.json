@@ -1,0 +1,96 @@
+{
+  "accuracy": 0.84,
+  "precision_macro": 0.8455574229691877,
+  "precision_weighted": 0.8455574229691877,
+  "recall_macro": 0.8400000000000001,
+  "recall_weighted": 0.84,
+  "f1_macro": 0.8384999633780122,
+  "f1_weighted": 0.838499963378012,
+  "cv_f1_macro_mean": 0.8822467308695142,
+  "cv_f1_macro_std": 0.020054961514326276,
+  "confusion_matrix": [
+    [
+      16,
+      2,
+      0,
+      0,
+      2
+    ],
+    [
+      0,
+      19,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      20,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      15,
+      1
+    ],
+    [
+      5,
+      0,
+      0,
+      1,
+      14
+    ]
+  ],
+  "test_size": 100,
+  "train_size": 400,
+  "classification_report": {
+    "BUSINESS-DEVELOPMENT": {
+      "precision": 0.7619047619047619,
+      "recall": 0.8,
+      "f1-score": 0.7804878048780488,
+      "support": 20.0
+    },
+    "FINANCE": {
+      "precision": 0.76,
+      "recall": 0.95,
+      "f1-score": 0.8444444444444444,
+      "support": 20.0
+    },
+    "HR": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 20.0
+    },
+    "INFORMATION-TECHNOLOGY": {
+      "precision": 0.8823529411764706,
+      "recall": 0.75,
+      "f1-score": 0.8108108108108109,
+      "support": 20.0
+    },
+    "SALES": {
+      "precision": 0.8235294117647058,
+      "recall": 0.7,
+      "f1-score": 0.7567567567567568,
+      "support": 20.0
+    },
+    "accuracy": 0.84,
+    "macro avg": {
+      "precision": 0.8455574229691877,
+      "recall": 0.8400000000000001,
+      "f1-score": 0.8384999633780122,
+      "support": 100.0
+    },
+    "weighted avg": {
+      "precision": 0.8455574229691877,
+      "recall": 0.84,
+      "f1-score": 0.838499963378012,
+      "support": 100.0
+    }
+  },
+  "latency_seconds": 11.971
+}

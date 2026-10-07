@@ -1,0 +1,5 @@
+Model,P@5,Recall@5,MRR,NDCG@10,Hit_Rate@5,Latency_ms,Candidate_Pool
+TF-IDF Only,0.4,0.02,0.4667,0.4147,0.6,1273.14,100
+Embeddings Only,0.56,0.028,0.6,0.5108,0.6,20.62,100
+Hybrid Retrieval,0.52,0.026,0.6,0.482,0.6,20.25,100
+Hybrid + Ranking,0.4,0.02,0.6,0.4555,0.6,89.56,100

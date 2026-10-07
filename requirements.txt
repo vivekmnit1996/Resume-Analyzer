@@ -1,0 +1,14 @@
+streamlit
+pdfplumber
+scikit-learn
+pandas
+numpy
+nltk
+plotly
+matplotlib
+requests
+python-dotenv
+sentence-transformers
+faiss-cpu
+pytest
+pyarrow

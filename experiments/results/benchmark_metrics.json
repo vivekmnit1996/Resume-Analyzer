@@ -1,0 +1,42 @@
+[
+  {
+    "Model":"TF-IDF Only",
+    "P@5":0.4,
+    "Recall@5":0.02,
+    "MRR":0.4667,
+    "NDCG@10":0.4147,
+    "Hit_Rate@5":0.6,
+    "Latency_ms":1273.14,
+    "Candidate_Pool":100
+  },
+  {
+    "Model":"Embeddings Only",
+    "P@5":0.56,
+    "Recall@5":0.028,
+    "MRR":0.6,
+    "NDCG@10":0.5108,
+    "Hit_Rate@5":0.6,
+    "Latency_ms":20.62,
+    "Candidate_Pool":100
+  },
+  {
+    "Model":"Hybrid Retrieval",
+    "P@5":0.52,
+    "Recall@5":0.026,
+    "MRR":0.6,
+    "NDCG@10":0.482,
+    "Hit_Rate@5":0.6,
+    "Latency_ms":20.25,
+    "Candidate_Pool":100
+  },
+  {
+    "Model":"Hybrid + Ranking",
+    "P@5":0.4,
+    "Recall@5":0.02,
+    "MRR":0.6,
+    "NDCG@10":0.4555,
+    "Hit_Rate@5":0.6,
+    "Latency_ms":89.56,
+    "Candidate_Pool":100
+  }
+]
